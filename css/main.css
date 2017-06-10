@@ -1,0 +1,122 @@
+/* TEXT COLOR: #292b2c */
+/* ACCENT COLOR: #50e3c2 */
+
+@font-face {
+    font-family: Bender;
+    src: url("../fonts/Bender.otf");
+}
+
+.overlay,
+section {
+    padding: 10% 0;
+    min-height: 100vh;
+}
+
+footer {
+    font-family: Bender;
+}
+
+h2 {
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+h4 {
+    padding: 10px 0;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #50e3c2;
+}
+
+h6 {
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+a {
+    color: #292b2c;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #50e3c2;
+}
+
+.btn-primary {
+    background-color: #50e3c2 !important;
+    border-color: #50e3c2 !important;
+}
+
+.btn-primary:hover {
+    background-color: black !important;
+    border-color: black !important;
+    color: white;
+}
+
+/* fonts */
+.display-3{
+    font-size: 8vw;
+}
+
+.display-4{
+    font-size: 7vw;
+}
+
+/* motivation block */
+#motivation {
+    background: url("../img/background/bg-price.jpg") center top no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+footer, section:nth-child(odd) {
+    background: url("../img/background/bg-elements-white.png") repeat;
+    background-attachment: fixed;
+}
+
+/* grid gallery block */
+#photo-gallery{
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    background-size: cover;
+    opacity: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.grid-gallery > .row {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-image {
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+}
+
+.first-row .grid-image:nth-child(1) {
+    background: url("../img/slide/slide(1).jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.first-row .grid-image:nth-child(2) {
+    background: url("../img/slide/slide(2).jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.second-row .grid-image:nth-child(1) {
+    background: url("../img/slide/slide(3).jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.second-row .grid-image:nth-child(2) {
+    background: url("../img/slide/slide(4).jpg") center center no-repeat;
+    background-size: cover;
+}
